@@ -1,2 +1,6 @@
 # DSA
-DSA notes in java
+<h3>@author - Ratnadeep Tayade</h3><br>
+
+DSA notes in java<br>
+
+DAY01: Intro to DSA<br>
