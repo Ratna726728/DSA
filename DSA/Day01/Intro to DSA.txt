@@ -1,0 +1,75 @@
+INTRODUCTION TO DSA:
+
+
+# DSA:
+
+The term DSA stands for Data Structures and Algorithms, in the context of computer science.
+
+## where, Data Structure consists of-
+
+- Linked list
+- Matrix /Grid
+- Queue 
+- Stack
+- Array
+- Hash 
+- Heap
+- Graph
+- String 
+- Tree
+
+
+## And Algorithm is consists of:
+
+- Pattern searching
+- Divide & conquer
+- Searching
+- Sorting 
+- Bitwise
+- Greedy
+- Recursion
+- Backtracking
+- Mathematical
+- Dyanamic Programming
+
+# What is DSA?
+
+- Data Structure and Algorithms (DSA) refers to the study of methods for organizing and storing data and the design procedures (algorithms) 
+for solving problems, which operate on these data structures.
+
+#Best way to learn DSA?
+
+- The best way is to divide DSA into parts and learn it.
+
+- We divide DSA in 5 parts:
+
+1. Learn at least one programming language.
+
+2. Learn about Time complexity and space complexity.
+
+3. Learn Data Structures.
+
+4. Learn Algorithms.
+
+5. Practice problems and compete in compitions and do more practice.
+
+
+# DATA STRUCTURE:
+
+- Data Strucuture are essential components that help organize and store data efficiently in computer memory.
+
+- They provide a way to manage and manipulate data effectively, enabling faster access, insertion, and deletion operation.
+
+- common data structures include arrays, linked list, stacks, queues, tree, and graphs, each serving specific purpose based on the requirements of the problem at hand.
+
+# ALGORITHMS:
+
+
+- Algorithms are well defined sets of instructions designed that are used to solve problems or perform a task.
+
+- To put in simpler terms, it is a set of operations performed in a step-by-step manner to execute a task.
+
+- It is essential to have an algorithm that is both tme ans space-advanced and the best way to illuminate various kinds of issues is with the help of various kinds of algorithmic techniques.
+
+- Algorithm in programming are used to get the desired result, these algorithms are language-indepedent, that is, they can be invoked in any language.
+As expected the output will also be the same. 
