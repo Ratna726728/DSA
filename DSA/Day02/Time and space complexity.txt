@@ -1,0 +1,215 @@
+TIME COMPLEXITY AND SPACE COMPLEXITY:	
+
+#Time Complexity:
+
+- The time complexity of an algorithm quantifies the amount of time taken by an algorithm to run
+as a function of the length input.
+
+Note: The time to run is a function of the length of the input and not the actual execution time of
+the machine on which the algorithm is running on.
+
+- Defination:
+The valid algorithm take a finite amount of time for execution. The time required by the algorithm
+to solve given problem is called time complexity of the algorithm.
+
+- The time complexity is very useful measure in algorithm analysis.
+
+- It is the time needed for the completion of an algorithm. To estimate the time complexity, we need
+to consider the cost of each fundamental instruction and the number of times the instruction is executed.
+
+- In short we can also say, Relation between input size and running time(operation).
+
+- Let's take examples, 
+i] main(){            ---|
+	print("hello");  |-- total 1 operation is performed 
+   }                  ---|
+
+ii] main(){           ---|
+	print("hello");  |---- total 2 operation's are performed here
+	print("hi");     |
+    }                 ---|
+
+
+iii] let's undertand with loops,
+
+scanner----> input a variable "n".
+for(int i=0;i<n;i++){    ----|
+	print("hello");      |--- total 1 operation is performed here
+}                        ----|
+but,
+we are performing this 1 operation's n times.
+i.e. 1*n times
+
+
+- Relation might be linear, quadratic, cubic, log, sqareroot, etc.
+- linear relation- if we increase input by 10, then running time will increase by 10.
+- Quadratic relation- if we increase input by 2, then running time will increase by 4.
+etc. We will be understanding about this relations later on.
+
+* the more optimized our code will be, depends on relation, the less it's having relation, more 
+optimized code.
+
+--------------------------------------------------------
+|TIME COMPLEXITY IS DIRECTLY PROPORTIONAL TO INPUT "N" |
+--------------------------------------------------------
+
+- There are three cases in time complexity.
+1. Best case [Ω(n)].
+2. Average case [Θ(n)].
+3. Worst case [O(n)].
+
+1. Best case: 
+
+- It is defined as the condition that allows an algorithm to complete statement execution in the shortest amount of time. 
+- In this case, the execution time serves as a lower bound on the algorithm's time complexity.
+
+2. Average Case: 
+
+- You add the running times for each possible input combination and take the average in the average case.
+
+- Here, the execution time serves as both a lower and upper bound on the algorithm's time complexity.
+
+3. Worst Case: 
+
+- It is defined as the condition that allows an algorithm to complete statement execution in the 
+shortest amount of time possible. 
+
+- In this case, the execution time serves as an upper bound on the algorithm's time complexity.
+
+
+Let's understand with examples:
+1. 
+int n = sc.nextInt();
+for(int i =0; i<n; i++){
+	for(int j = 0; j<n; j++){
+		System.out.println("hello");
+	}
+}
+
+Explanation:
+assume if n =5 in above example,
+
+n=5 
+first for loop will be performed from 0 to 4 as n =5 and it would be same for second for loop.
+i= 0 --> j=0,1,2,3,4
+i= 1 --> j=0,1,2,3,4
+i= 2 --> j=0,1,2,3,4
+i= 3 --> j=0,1,2,3,4
+i= 4 --> j=0,1,2,3,4
+
+i.e. the outer loop executed n time and inner loop also executed n time.
+==> total = n*n
+
+==> O(n*n) <==> O(n^2)
+
+2. 
+int n = sc.nextInt();
+int m = sc.nextInt();
+
+for(int i =0; i<n ;i++){
+	for(int j =0; j<m;j++){
+		System.out.println("hello");
+	}
+}
+
+Explanation:
+assume n=5 and m=5 in above example,
+
+n=5 and m=5
+first for loop will be performed from 0 to 4 and second for loop will be perfomed 0 to 4 
+i= 0 --> j=0,1,2,3,4... m
+i= 1 --> j=0,1,2,3,4... m
+i= 2 --> j=0,1,2,3,4... m
+i= 3 --> j=0,1,2,3,4... m
+i= 4 --> j=0,1,2,3,4... m
+.
+.
+i= n
+
+total= [n times * m times]
+
+the time complexity will be O(n*m).
+
+==>O(n*m)
+
+
+3. 
+int n = sc.nextInt();
+int m = sc.nextInt();
+
+for(int i =0; i<n ;i++){
+        System.out.println("hello");
+}
+for(int j =0; j<n ;j++){
+	System.out.println("hello");
+}
+
+Explanation:
+
+i will be go from 0 to n and j will go from 0 to m.
+
+i.e. total time = [n times + m times]
+
+==>O(n+m)
+
+now here the time complexity is depends upon the size of n and m 
+if n =3 and m = 3 it will not make any difference, but if we make n=10^5 and m =3 
+then m will be totally negeleble therefore the time complexity will be O(n).
+
+
+-----------------------------------------------
+|COMPARE |   O(n)    |  O(n^2)   |  O(n^3)    |
+-----------------------------------------------
+| n=1    |    1      |    1      |    1       |
+-----------------------------------------------
+| n=2    |    2      |    4      |    8       |
+-----------------------------------------------
+| n=3    |    3      |    9      |    27      |
+-----------------------------------------------
+| n=10^5 |    10^5   |    10^10  |    10^30   |
+-----------------------------------------------
+
+
+
+#Space Complexity:
+
+- Defination:
+Problem solving using computer requires memory to hold temporary data or final result while the 
+program is in execution. The amount of memory required by the algorithm to solve given problem 
+is called space complexity of the algorithm.
+
+- The space complexity of an algorithm quantifies the amount of space taken by an algorithm to 
+run as a function of length of the input.
+
+- It is the amount of memory needed for the completion of an algorithm.
+
+- To estimate the memory requirement we need to focus on two parts:
+
+1. A fixed part: 
+- It is independent of the input size.
+- It includes memory for instructions(code), constants, variable, etc.
+
+
+2. A variable part:
+- It dependent on input size.
+- It includes memory for recursion stack, referenced variable, etc.
+
+Auxiliary space + space use by input values = Space Complexity
+
+example:
+
+public static void main(String[] args){
+	Scanner sc = new Scanner(System.in);
+	int n = sc.nextInt();
+
+	for(int i = 0; i<n ;i++){
+		System.out.println("hello");
+	}
+}
+
+Explanation:
+
+from this program we have in memory, scanner class object(sc), n variable, and i counter.
+
+
+
