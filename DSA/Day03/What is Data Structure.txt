@@ -1,0 +1,76 @@
+What is Data Structure?
+
+- A data structure is a way of organizing ans storing the data in a computer so that it can be
+accessed and used efficiently.
+
+- It refers to the logical and mathematical representation of data, as well as the implementation
+in a computer program.
+
+#Classification:
+
+Data Structure can be classified into two broad categories:
+1. Linear Data Structure.
+2. Non-Linear Data Structure.
+
+1. Linear Data Structure:
+
+- A data Structure in which data elements are arranged sequentially or linealy, where each 
+element is attached to it's previous and next adjacent elements, is called a linear data 
+structures. 
+
+- Examples are Array, stack, queue, etc.
+
+2. Non-Linear Data Structure:
+
+- Data Structure where data elements are not placed sequentially or linearly are called 
+non-linear data structure.
+
+- Examples are tree and graphs.
+
+IMG:(Hirarchy of Data Structure.jpg)
+
+#APPLICATIONS OF DATA STRUCTURE :
+
+Data Structure are used in a wide range of computer programs and applications, including:
+1. Database
+2. Operating System
+3. Computer Graphics
+4. Artificial Intelligence
+
+#ADVANTAGES OF DATA STRUCTURES:
+
+The use of data structures provides several advantages, including:
+
+1] Efficiency:
+
+Data Structures allow for efficient storage and retrival of data, which is most important in
+applications where performance is critical.
+
+2] Flexiability:
+
+Data Structures provides a flexible way to organize and store data, allowing for easy modification
+and manipulation.
+
+3] Reusability: 
+
+Data strucutures can be used in multiple programs and applications, reducing the needs for 
+redundant code.
+
+4] Maintainability:
+
+Well designed data strucutures can make programs easier to understand, modify, and maintain over
+time.
+
+5] Data Organization:
+
+They organize data in a logical manner, making it easier to understand and access.
+
+6] Data Abstraction:
+
+They hide implementation details of data storage, allowing programmers to focus on the logical
+aspects of data manipulation.
+
+7] Algorithm Optimization:
+
+The choice of the appropriate data structure can significantly impact the efficiency of algorithms
+that operate on the data.
