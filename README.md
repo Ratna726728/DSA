@@ -10,3 +10,4 @@ DAY 04: Data Structure Types, Classifications and Applications<br>
 DAY 05: What is Algorithm | Introduction to Algorithms<br>
 DAY 06: Most important type of Algorithms<br>
 Day 07: What is Array?<br>
+DAY 08: Array Operations<br>
