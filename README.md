@@ -12,4 +12,5 @@ DAY 06: Most important type of Algorithms<br>
 DAY 07: What is Array?<br>
 DAY 08: Array Operations<br>
 DAY 09: Applications, Advantages and Disadvantages of Array<br>
+DAY 10: Array(basic coding problems solving in 1D array)<br>
 
