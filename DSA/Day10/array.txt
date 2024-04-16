@@ -1,0 +1,1 @@
+Solving problems of array in JavaDevelopement directory, total basic problems based on 1D array
